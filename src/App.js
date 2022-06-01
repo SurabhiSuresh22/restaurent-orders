@@ -1,10 +1,9 @@
 import Home from './Pages/Home';
 import React,{useState} from 'react';
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import CurrentOrder from './components/CurrentOrder';
 import PastOrders from './components/PastOrders';
-import Navbar from './components/Navbar';
 import { v4 as uuid }from 'uuid'
 
 function App() {
