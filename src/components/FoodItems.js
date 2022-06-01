@@ -8,7 +8,11 @@ const FoodItems = ({item,handleOrder}) => {
         <li className='item' onClick={handleOrder} >
             <div className="info">
                 <span className='dish'>{dish}</span>
+<<<<<<< HEAD
                 <span className='price'>{price}</span>
+=======
+            <span className='price'>{price}</span>
+>>>>>>> da8300067949a5e4a23d3231d6638977b2ab5fce
             </div>         
             <button onClick={()=> handleOrder(id)}> Add</button>
         </li>
