@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './CurrentOrder.css'
+import './CurrentOrdr.css'
 
 const CurrentOrder = ({order,total}) => {
   return (

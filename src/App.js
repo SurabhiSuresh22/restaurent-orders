@@ -21,18 +21,10 @@ function App() {
 
   const handleOrder = (id) =>{
     let i = items.find( item => item.id === id)
-<<<<<<< HEAD
     let {dish,price} = i 
     setOrder(dish)
     setTotal(price)
     setPast([...past,dish])
-=======
-    console.log(i)
-    let {dish,price} = i
-    past = [...past,dish]
-    setOrder(dish)
-    setTotal(price)
->>>>>>> da8300067949a5e4a23d3231d6638977b2ab5fce
   }
 
   return (
@@ -41,11 +33,8 @@ function App() {
             <Routes>
             <Route exact path='/' element={<Home order={order} items={items} total={total} handleOrder={handleOrder}/>}></Route>
             <Route exact path='/OrderSummary' element={<CurrentOrder order={order}  total={total}/>}></Route>
-<<<<<<< HEAD
+
             <Route exact path='/PastOrders' element={<PastOrders past={past}/>}></Route>
-=======
-            <Route exact path='/PastOrders' element={<PastOrders/>}></Route>
->>>>>>> da8300067949a5e4a23d3231d6638977b2ab5fce
             </Routes>
       </BrowserRouter>
     </div>
