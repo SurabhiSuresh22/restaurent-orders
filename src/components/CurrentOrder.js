@@ -4,7 +4,7 @@ import './CurrentOrder.css'
 
 const CurrentOrder = ({order,total}) => {
   return (
-    <div>
+    <div className='CO'>
       <h2>CurrentOrder</h2>
       <Link className="nav-item nav-link" to='/'>Home</Link>
       <div className='summary'>
