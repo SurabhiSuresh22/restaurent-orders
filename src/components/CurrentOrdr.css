@@ -1,8 +1,18 @@
+<<<<<<< HEAD:src/components/CurrentOrdr.css
 .CO {
     margin: 5%;
 }
 
 .summary {
+=======
+<<<<<<< HEAD
+.CO{
+    margin: 5%;
+}
+=======
+>>>>>>> da8300067949a5e4a23d3231d6638977b2ab5fce
+.summary{
+>>>>>>> da0c97945306711851960d5544bde231422260b9:src/components/CurrentOrder.css
     background-color: aquamarine;
     height: 200px;
     width: 500px;
