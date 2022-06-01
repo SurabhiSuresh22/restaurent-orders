@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import FoodItems from './FoodItems'
 import './FoodList.css'
 
