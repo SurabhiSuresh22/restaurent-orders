@@ -1,0 +1,11 @@
+.item{
+    background-color: antiquewhite;
+    width: 200px;
+    margin: 30px auto;
+}
+.dish{
+    margin: 20px;
+}
+.price{
+    margin: 20px;
+}
