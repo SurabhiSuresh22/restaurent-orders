@@ -9,3 +9,6 @@
 .price{
     margin: 20px;
 }
+.item:active{
+    background-color: aqua;
+}
