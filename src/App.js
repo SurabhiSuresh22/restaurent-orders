@@ -16,7 +16,8 @@ function App() {
         {id: uuid(), dish : 'Biryani',price: 100},
         {id: uuid(), dish: 'French Fries',price: 50}
     ]
-  const [items, setItems] = useState(food)
+  const result = useState(food)
+  const items = result[0]
 
   const handleOrder = (id) =>{
     let i = items.find( item => item.id === id)
