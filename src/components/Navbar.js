@@ -10,10 +10,10 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <Link className="nav-item nav-link" to='/OrderSummary'>Order Summary</Link>
-            <Link className="nav-item nav-link" to='/PastOrders'>Past Orders</Link>
-          </div>
+          <ul className="navbar-nav">
+            <li className='nav-item'><Link className="nav-link" to='/OrderSummary'>Order Summary</Link></li>
+            <li className='nav-item'><Link className="nav-item nav-link" to='/PastOrders'>Past Orders</Link></li>
+          </ul>
         </div>
       </nav>
     </div>
