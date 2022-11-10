@@ -1,5 +1,3 @@
-# This Project is a simple react app, with all the CRUD Operations.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
